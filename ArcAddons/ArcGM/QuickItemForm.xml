@@ -1389,7 +1389,7 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>outSAY("character additem 23162 4");</OnClick>
+          <OnClick>outSAY("additem 23162 4");</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0"

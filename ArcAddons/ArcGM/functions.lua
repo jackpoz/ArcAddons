@@ -280,378 +280,378 @@ end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --QuickItemScript
 function GmOutfit()
- outSAY("character additem 2586");--Gamemaster's Robe
- outSAY("character additem 11508");--Gamemaster's Slippers
- outSAY("character additem 12064");--Gamemaster's Hood
- outSAY("character additem 18154");-- Blizzard Stationary (for mail)
+ outSAY("additem 2586");--Gamemaster's Robe
+ outSAY("additem 11508");--Gamemaster's Slippers
+ outSAY("additem 12064");--Gamemaster's Hood
+ outSAY("additem 18154");-- Blizzard Stationary (for mail)
 end
 
 function Potions()
- outSAY("character additem 41166 20");--Runic Healing Injector X20
- outSAY("character additem 42545 20");--Runic Mana Injector X20
+ outSAY("additem 41166 20");--Runic Healing Injector X20
+ outSAY("additem 42545 20");--Runic Mana Injector X20
 end
 --ALLIANCE ITEMSETS
 
 function MageAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 47758");--Khadgar's Shoulderpads of Triumph
- outSAY("character additem 47759");--Khadgar's Robe of Triumph
- outSAY("character additem 47760");--Khadgar's Leggings of Triumph
- outSAY("character additem 47761");--Khadgar's Hood of Triumph
- outSAY("character additem 47762");--Khadgar's Gauntlets of Triumph
+ outSAY("additem 47758");--Khadgar's Shoulderpads of Triumph
+ outSAY("additem 47759");--Khadgar's Robe of Triumph
+ outSAY("additem 47760");--Khadgar's Leggings of Triumph
+ outSAY("additem 47761");--Khadgar's Hood of Triumph
+ outSAY("additem 47762");--Khadgar's Gauntlets of Triumph
 end
 
 function HunterAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48260");--Windrunner's Spaulders of Triumph
- outSAY("character additem 48261");--Windrunner's Legguards of Triumph
- outSAY("character additem 48262");--Windrunner's Headpiece of Triumph
- outSAY("character additem 48263");--Windrunner's Handguards of Triumph
- outSAY("character additem 48264");--Windrunner's Tunic of Triumph
+ outSAY("additem 48260");--Windrunner's Spaulders of Triumph
+ outSAY("additem 48261");--Windrunner's Legguards of Triumph
+ outSAY("additem 48262");--Windrunner's Headpiece of Triumph
+ outSAY("additem 48263");--Windrunner's Handguards of Triumph
+ outSAY("additem 48264");--Windrunner's Tunic of Triumph
 end
 
 function RogueAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48228");--VanCleef's Pauldrons of Triumph
- outSAY("character additem 48229");--VanCleef's Legplates of Triumph
- outSAY("character additem 48230");--VanCleef's Helmet of Triumph
- outSAY("character additem 48231");--VanCleef's Gauntlets of Triumph
- outSAY("character additem 48232");--VanCleef's Breastplate of Triumph
+ outSAY("additem 48228");--VanCleef's Pauldrons of Triumph
+ outSAY("additem 48229");--VanCleef's Legplates of Triumph
+ outSAY("additem 48230");--VanCleef's Helmet of Triumph
+ outSAY("additem 48231");--VanCleef's Gauntlets of Triumph
+ outSAY("additem 48232");--VanCleef's Breastplate of Triumph
 end
 
 function WarlockAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 47788");--Kel'Thuzad's Gloves of Triumph
- outSAY("character additem 47789");--Kel'Thuzad's Hood of Triumph
- outSAY("character additem 47790");--Kel'Thuzad's Leggings of Triumph
- outSAY("character additem 47791");--Kel'Thuzad's Robe of Triumph
- outSAY("character additem 47792");--Kel'Thuzad's Shoulderpads of Triumph
+ outSAY("additem 47788");--Kel'Thuzad's Gloves of Triumph
+ outSAY("additem 47789");--Kel'Thuzad's Hood of Triumph
+ outSAY("additem 47790");--Kel'Thuzad's Leggings of Triumph
+ outSAY("additem 47791");--Kel'Thuzad's Robe of Triumph
+ outSAY("additem 47792");--Kel'Thuzad's Shoulderpads of Triumph
 end
 
 function WarriorAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48381");--Wrynn's Shoulderplates of Triumph
- outSAY("character additem 48382");--Wrynn's Legplates of Triumph
- outSAY("character additem 48383");--Wrynn's Helmet of Triumph
- outSAY("character additem 48384");--Wrynn's Gauntlets of Triumph
- outSAY("character additem 48385");--Wrynn's Battleplate of Triumph
+ outSAY("additem 48381");--Wrynn's Shoulderplates of Triumph
+ outSAY("additem 48382");--Wrynn's Legplates of Triumph
+ outSAY("additem 48383");--Wrynn's Helmet of Triumph
+ outSAY("additem 48384");--Wrynn's Gauntlets of Triumph
+ outSAY("additem 48385");--Wrynn's Battleplate of Triumph
 end
 
 function ShamanAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48351");--Nobundo's Shoulderguards of Triumph
- outSAY("character additem 48352");--Nobundo's War-Kilt of Triumph
- outSAY("character additem 48353");--Nobundo's Faceguard of Triumph
- outSAY("character additem 48354");--Nobundo's Grips of Triumph
- outSAY("character additem 48355");--Nobundo's Chestguard of Triumph
+ outSAY("additem 48351");--Nobundo's Shoulderguards of Triumph
+ outSAY("additem 48352");--Nobundo's War-Kilt of Triumph
+ outSAY("additem 48353");--Nobundo's Faceguard of Triumph
+ outSAY("additem 48354");--Nobundo's Grips of Triumph
+ outSAY("additem 48355");--Nobundo's Chestguard of Triumph
 end
 
 function PriestAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48029");--Velen's Shoulderpads of Triumph
- outSAY("character additem 48031");--Velen's Robe of Triumph
- outSAY("character additem 48033");--Velen's Leggings of Triumph
- outSAY("character additem 48035");--Velen's Cowl of Triumph
- outSAY("character additem 48037");--Velen's Gloves of Triumph
+ outSAY("additem 48029");--Velen's Shoulderpads of Triumph
+ outSAY("additem 48031");--Velen's Robe of Triumph
+ outSAY("additem 48033");--Velen's Leggings of Triumph
+ outSAY("additem 48035");--Velen's Cowl of Triumph
+ outSAY("additem 48037");--Velen's Gloves of Triumph
 end
 
 function DruidAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48203");--Malfurion's Handgrips of Triumph
- outSAY("character additem 48204");--Malfurion's Headguard of Triumph
- outSAY("character additem 48205");--Malfurion's Legguards of Triumph
- outSAY("character additem 48206");--Malfurion's Raiments of Triumph
- outSAY("character additem 48207");--Malfurion's Shoulderpads of Triumph
+ outSAY("additem 48203");--Malfurion's Handgrips of Triumph
+ outSAY("additem 48204");--Malfurion's Headguard of Triumph
+ outSAY("additem 48205");--Malfurion's Legguards of Triumph
+ outSAY("additem 48206");--Malfurion's Raiments of Triumph
+ outSAY("additem 48207");--Malfurion's Shoulderpads of Triumph
 end
 
 function PaladinAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48612");--Turalyon's Shoulderplates of Triumph
- outSAY("character additem 48613");--Turalyon's Legplates of Triumph
- outSAY("character additem 48614");--Turalyon's Helm of Triumph
- outSAY("character additem 48615");--Turalyon's Gauntlets of Triumph
- outSAY("character additem 48616");--Turalyon's Battleplate of Triumph
+ outSAY("additem 48612");--Turalyon's Shoulderplates of Triumph
+ outSAY("additem 48613");--Turalyon's Legplates of Triumph
+ outSAY("additem 48614");--Turalyon's Helm of Triumph
+ outSAY("additem 48615");--Turalyon's Gauntlets of Triumph
+ outSAY("additem 48616");--Turalyon's Battleplate of Triumph
 end
 
 function DeathKnightAT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48491");--Koltira's Battleplate of Triumph
- outSAY("character additem 48492");--Koltira's Gauntlets of Triumph
- outSAY("character additem 48493");--Koltira's Helmet of Triumph
- outSAY("character additem 48494");--Koltira's Legplates of Triumph
- outSAY("character additem 48495");--Koltira's Shoulderplates of Triumph
+ outSAY("additem 48491");--Koltira's Battleplate of Triumph
+ outSAY("additem 48492");--Koltira's Gauntlets of Triumph
+ outSAY("additem 48493");--Koltira's Helmet of Triumph
+ outSAY("additem 48494");--Koltira's Legplates of Triumph
+ outSAY("additem 48495");--Koltira's Shoulderplates of Triumph
 end
 
 function MageAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51280");--Sanctified Bloodmage Gloves
- outSAY("character additem 51281");--Sanctified Bloodmage Hood
- outSAY("character additem 51282");--Sanctified Bloodmage Leggings
- outSAY("character additem 51283");--Sanctified Bloodmage Robe
- outSAY("character additem 51284");--Sanctified Bloodmage Shoulderpads
+ outSAY("additem 51280");--Sanctified Bloodmage Gloves
+ outSAY("additem 51281");--Sanctified Bloodmage Hood
+ outSAY("additem 51282");--Sanctified Bloodmage Leggings
+ outSAY("additem 51283");--Sanctified Bloodmage Robe
+ outSAY("additem 51284");--Sanctified Bloodmage Shoulderpads
 end
 
 function HunterAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51285");--Sanctified Ahn'Kahar Blood Hunter's Handguards
- outSAY("character additem 51286");--Sanctified Ahn'Kahar Blood Hunter's Headpiece
- outSAY("character additem 51287");--Sanctified Ahn'Kahar Blood Hunter's Legguards
- outSAY("character additem 51288");--Sanctified Ahn'Kahar Blood Hunter's Spaulders
- outSAY("character additem 51289");--Sanctified Ahn'Kahar Blood Hunter's Tunic
+ outSAY("additem 51285");--Sanctified Ahn'Kahar Blood Hunter's Handguards
+ outSAY("additem 51286");--Sanctified Ahn'Kahar Blood Hunter's Headpiece
+ outSAY("additem 51287");--Sanctified Ahn'Kahar Blood Hunter's Legguards
+ outSAY("additem 51288");--Sanctified Ahn'Kahar Blood Hunter's Spaulders
+ outSAY("additem 51289");--Sanctified Ahn'Kahar Blood Hunter's Tunic
 end
 
 function RogueAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51250");--Sanctified Shadowblade Breastplate
- outSAY("character additem 51251");--Sanctified Shadowblade Gauntlets
- outSAY("character additem 51252");--Sanctified Shadowblade Helmet
- outSAY("character additem 51253");--Sanctified Shadowblade Legplates
- outSAY("character additem 51254");--Sanctified Shadowblade Pauldrons
+ outSAY("additem 51250");--Sanctified Shadowblade Breastplate
+ outSAY("additem 51251");--Sanctified Shadowblade Gauntlets
+ outSAY("additem 51252");--Sanctified Shadowblade Helmet
+ outSAY("additem 51253");--Sanctified Shadowblade Legplates
+ outSAY("additem 51254");--Sanctified Shadowblade Pauldrons
 end
 
 function WarlockAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51230");--Sanctified Dark Coven Gloves
- outSAY("character additem 51231");--Sanctified Dark Coven Hood
- outSAY("character additem 51232");--Sanctified Dark Coven Leggings
- outSAY("character additem 51233");--Sanctified Dark Coven Robe
- outSAY("character additem 51234");--Sanctified Dark Coven Shoulderpads
+ outSAY("additem 51230");--Sanctified Dark Coven Gloves
+ outSAY("additem 51231");--Sanctified Dark Coven Hood
+ outSAY("additem 51232");--Sanctified Dark Coven Leggings
+ outSAY("additem 51233");--Sanctified Dark Coven Robe
+ outSAY("additem 51234");--Sanctified Dark Coven Shoulderpads
 end
 
 function WarriorAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51225");--Sanctified Ymirjar Lord's Battleplate
- outSAY("character additem 51226");--Sanctified Ymirjar Lord's Gauntlets
- outSAY("character additem 51227");--Sanctified Ymirjar Lord's Helmet
- outSAY("character additem 51228");--Sanctified Ymirjar Lord's Legplates
- outSAY("character additem 51229");--Sanctified Ymirjar Lord's Shoulderplates
+ outSAY("additem 51225");--Sanctified Ymirjar Lord's Battleplate
+ outSAY("additem 51226");--Sanctified Ymirjar Lord's Gauntlets
+ outSAY("additem 51227");--Sanctified Ymirjar Lord's Helmet
+ outSAY("additem 51228");--Sanctified Ymirjar Lord's Legplates
+ outSAY("additem 51229");--Sanctified Ymirjar Lord's Shoulderplates
 end
 
 function ShamanAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51240");--Sanctified Frost Witch's Shoulderguards
- outSAY("character additem 51241");--Sanctified Frost Witch's War-Kilt
- outSAY("character additem 51242");--Sanctified Frost Witch's Faceguard
- outSAY("character additem 51243");--Sanctified Frost Witch's Grips
- outSAY("character additem 51244");--Sanctified Frost Witch's Chestguard
+ outSAY("additem 51240");--Sanctified Frost Witch's Shoulderguards
+ outSAY("additem 51241");--Sanctified Frost Witch's War-Kilt
+ outSAY("additem 51242");--Sanctified Frost Witch's Faceguard
+ outSAY("additem 51243");--Sanctified Frost Witch's Grips
+ outSAY("additem 51244");--Sanctified Frost Witch's Chestguard
 end
 
 function PriestAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51260");--Sanctified Crimson Acolyte Gloves
- outSAY("character additem 51261");--Sanctified Crimson Acolyte Hood
- outSAY("character additem 51262");--Sanctified Crimson Acolyte Leggings
- outSAY("character additem 51263");--Sanctified Crimson Acolyte Robe
- outSAY("character additem 51264");--Sanctified Crimson Acolyte Shoulderpads
+ outSAY("additem 51260");--Sanctified Crimson Acolyte Gloves
+ outSAY("additem 51261");--Sanctified Crimson Acolyte Hood
+ outSAY("additem 51262");--Sanctified Crimson Acolyte Leggings
+ outSAY("additem 51263");--Sanctified Crimson Acolyte Robe
+ outSAY("additem 51264");--Sanctified Crimson Acolyte Shoulderpads
 end
 
 function DruidAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51295");--Sanctified Lasherweave Handgrips
- outSAY("character additem 51296");--Sanctified Lasherweave Headguard
- outSAY("character additem 51297");--Sanctified Lasherweave Legguards
- outSAY("character additem 51298");--Sanctified Lasherweave Raiment
- outSAY("character additem 51299");--Sanctified Lasherweave Shoulderpads
+ outSAY("additem 51295");--Sanctified Lasherweave Handgrips
+ outSAY("additem 51296");--Sanctified Lasherweave Headguard
+ outSAY("additem 51297");--Sanctified Lasherweave Legguards
+ outSAY("additem 51298");--Sanctified Lasherweave Raiment
+ outSAY("additem 51299");--Sanctified Lasherweave Shoulderpads
 end
 
 function PaladinAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51275");--Sanctified Lightsworn Battleplate
- outSAY("character additem 51276");--Sanctified Lightsworn Gauntlets
- outSAY("character additem 51277");--Sanctified Lightsworn Helmet
- outSAY("character additem 51278");--Sanctified Lightsworn Legplates
- outSAY("character additem 51279");--Sanctified Lightsworn Shoulderplates
+ outSAY("additem 51275");--Sanctified Lightsworn Battleplate
+ outSAY("additem 51276");--Sanctified Lightsworn Gauntlets
+ outSAY("additem 51277");--Sanctified Lightsworn Helmet
+ outSAY("additem 51278");--Sanctified Lightsworn Legplates
+ outSAY("additem 51279");--Sanctified Lightsworn Shoulderplates
 end
 
 function DeathKnightAT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51310");--Sanctified Scourgelord Battleplate
- outSAY("character additem 51311");--Sanctified Scourgelord Gauntlets
- outSAY("character additem 51312");--Sanctified Scourgelord Helmet
- outSAY("character additem 51313");--Sanctified Scourgelord Legplates
- outSAY("character additem 51314");--Sanctified Scourgelord Shoulderplates
+ outSAY("additem 51310");--Sanctified Scourgelord Battleplate
+ outSAY("additem 51311");--Sanctified Scourgelord Gauntlets
+ outSAY("additem 51312");--Sanctified Scourgelord Helmet
+ outSAY("additem 51313");--Sanctified Scourgelord Legplates
+ outSAY("additem 51314");--Sanctified Scourgelord Shoulderplates
 end
 
 --HORDE ITEMSETS
 
 function MageHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 47758");--Khadgar's Shoulderpads of Triumph
- outSAY("character additem 47759");--Khadgar's Robe of Triumph
- outSAY("character additem 47760");--Khadgar's Leggings of Triumph
- outSAY("character additem 47761");--Khadgar's Hood of Triumph
- outSAY("character additem 47762");--Khadgar's Gauntlets of Triumph
+ outSAY("additem 47758");--Khadgar's Shoulderpads of Triumph
+ outSAY("additem 47759");--Khadgar's Robe of Triumph
+ outSAY("additem 47760");--Khadgar's Leggings of Triumph
+ outSAY("additem 47761");--Khadgar's Hood of Triumph
+ outSAY("additem 47762");--Khadgar's Gauntlets of Triumph
 end
 
 function HunterHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48265");--Windrunner's Tunic of Triumph
- outSAY("character additem 48266");--Windrunner's Handguards of Triumph
- outSAY("character additem 48267");--Windrunner's Headpiece of Triumph
- outSAY("character additem 48268");--Windrunner's Legguards of Triumph
- outSAY("character additem 48269");--Windrunner's Spaulders of Triumph
+ outSAY("additem 48265");--Windrunner's Tunic of Triumph
+ outSAY("additem 48266");--Windrunner's Handguards of Triumph
+ outSAY("additem 48267");--Windrunner's Headpiece of Triumph
+ outSAY("additem 48268");--Windrunner's Legguards of Triumph
+ outSAY("additem 48269");--Windrunner's Spaulders of Triumph
 end
 
 function RogueHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48233");--Garona's Breastplate of Triumph
- outSAY("character additem 48234");--Garona's Gauntlets of Triumph
- outSAY("character additem 48235");--Garona's Helmet of Triumph
- outSAY("character additem 48236");--Garona's Legplates of Triumph
- outSAY("character additem 48237");--Garona's Pauldrons of Triumph
+ outSAY("additem 48233");--Garona's Breastplate of Triumph
+ outSAY("additem 48234");--Garona's Gauntlets of Triumph
+ outSAY("additem 48235");--Garona's Helmet of Triumph
+ outSAY("additem 48236");--Garona's Legplates of Triumph
+ outSAY("additem 48237");--Garona's Pauldrons of Triumph
 end
 
 function WarlockHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 47793");--Gul'dan's Shoulderpads of Triumph
- outSAY("character additem 47794");--Gul'dan's Robe of Triumph
- outSAY("character additem 47795");--Gul'dan's Leggings of Triumph
- outSAY("character additem 47796");--Gul'dan's Hood of Triumph
- outSAY("character additem 47797");--Gul'dan's Gloves of Triumph
+ outSAY("additem 47793");--Gul'dan's Shoulderpads of Triumph
+ outSAY("additem 47794");--Gul'dan's Robe of Triumph
+ outSAY("additem 47795");--Gul'dan's Leggings of Triumph
+ outSAY("additem 47796");--Gul'dan's Hood of Triumph
+ outSAY("additem 47797");--Gul'dan's Gloves of Triumph
 end
 
 function WarriorHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48396");--Hellscream's Battleplate of Triumph
- outSAY("character additem 48397");--Hellscream's Gauntlets of Triumph
- outSAY("character additem 48398");--Hellscream's Helmet of Triumph
- outSAY("character additem 48399");--Hellscream's Legplates of Triumph
- outSAY("character additem 48400");--Hellscream's Shoulderplates of Triumph
+ outSAY("additem 48396");--Hellscream's Battleplate of Triumph
+ outSAY("additem 48397");--Hellscream's Gauntlets of Triumph
+ outSAY("additem 48398");--Hellscream's Helmet of Triumph
+ outSAY("additem 48399");--Hellscream's Legplates of Triumph
+ outSAY("additem 48400");--Hellscream's Shoulderplates of Triumph
 end
 
 function ShamanHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48356");--Thrall's Chestguard of Triumph
- outSAY("character additem 48357");--Thrall's Grips of Triumph
- outSAY("character additem 48358");--Thrall's Faceguard of Triumph
- outSAY("character additem 48359");--Thrall's War-Kilt of Triumph
- outSAY("character additem 48360");--Thrall's Shoulderguards of Triumph
+ outSAY("additem 48356");--Thrall's Chestguard of Triumph
+ outSAY("additem 48357");--Thrall's Grips of Triumph
+ outSAY("additem 48358");--Thrall's Faceguard of Triumph
+ outSAY("additem 48359");--Thrall's War-Kilt of Triumph
+ outSAY("additem 48360");--Thrall's Shoulderguards of Triumph
 end
 
 function PriestHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48057");--Zabra's Gloves of Triumph
- outSAY("character additem 48058");--Zabra's Cowl of Triumph
- outSAY("character additem 48059");--Zabra's Leggings of Triumph
- outSAY("character additem 48060");--Zabra's Robe of Triumph
- outSAY("character additem 48061");--Zabra's Shoulderpads of Triumph
+ outSAY("additem 48057");--Zabra's Gloves of Triumph
+ outSAY("additem 48058");--Zabra's Cowl of Triumph
+ outSAY("additem 48059");--Zabra's Leggings of Triumph
+ outSAY("additem 48060");--Zabra's Robe of Triumph
+ outSAY("additem 48061");--Zabra's Shoulderpads of Triumph
 end
 
 function DruidHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48198");--Runetotem's Shoulderpads of Triumph
- outSAY("character additem 48199");--Runetotem's Raiments of Triumph
- outSAY("character additem 48200");--Runetotem's Legguards of Triumph
- outSAY("character additem 48201");--Runetotem's Headguard of Triumph
- outSAY("character additem 48202");--Runetotem's Handgrips of Triumph
+ outSAY("additem 48198");--Runetotem's Shoulderpads of Triumph
+ outSAY("additem 48199");--Runetotem's Raiments of Triumph
+ outSAY("additem 48200");--Runetotem's Legguards of Triumph
+ outSAY("additem 48201");--Runetotem's Headguard of Triumph
+ outSAY("additem 48202");--Runetotem's Handgrips of Triumph
 end
 
 function PaladinHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48617");--Liadrin's Battleplate of Triumph
- outSAY("character additem 48618");--Liadrin's Gauntlets of Triumph
- outSAY("character additem 48619");--Liadrin's Helm of Triumph
- outSAY("character additem 48620");--Liadrin's Legplates of Triumph
- outSAY("character additem 48621");--Liadrin's Shoulderplates of Triumph
+ outSAY("additem 48617");--Liadrin's Battleplate of Triumph
+ outSAY("additem 48618");--Liadrin's Gauntlets of Triumph
+ outSAY("additem 48619");--Liadrin's Helm of Triumph
+ outSAY("additem 48620");--Liadrin's Legplates of Triumph
+ outSAY("additem 48621");--Liadrin's Shoulderplates of Triumph
 end
 
 function DeathKnightHT9()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 48491");--Koltira's Battleplate of Triumph
- outSAY("character additem 48492");--Koltira's Gauntlets of Triumph
- outSAY("character additem 48493");--Koltira's Helmet of Triumph
- outSAY("character additem 48494");--Koltira's Legplates of Triumph
- outSAY("character additem 48495");--Koltira's Shoulderplates of Triumph
+ outSAY("additem 48491");--Koltira's Battleplate of Triumph
+ outSAY("additem 48492");--Koltira's Gauntlets of Triumph
+ outSAY("additem 48493");--Koltira's Helmet of Triumph
+ outSAY("additem 48494");--Koltira's Legplates of Triumph
+ outSAY("additem 48495");--Koltira's Shoulderplates of Triumph
 end
 
 function MageHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51280");--Sanctified Bloodmage Gloves
- outSAY("character additem 51281");--Sanctified Bloodmage Hood
- outSAY("character additem 51282");--Sanctified Bloodmage Leggings
- outSAY("character additem 51283");--Sanctified Bloodmage Robe
- outSAY("character additem 51284");--Sanctified Bloodmage Shoulderpads
+ outSAY("additem 51280");--Sanctified Bloodmage Gloves
+ outSAY("additem 51281");--Sanctified Bloodmage Hood
+ outSAY("additem 51282");--Sanctified Bloodmage Leggings
+ outSAY("additem 51283");--Sanctified Bloodmage Robe
+ outSAY("additem 51284");--Sanctified Bloodmage Shoulderpads
 end
 
 function HunterHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51285");--Sanctified Ahn'Kahar Blood Hunter's Handguards
- outSAY("character additem 51286");--Sanctified Ahn'Kahar Blood Hunter's Headpiece
- outSAY("character additem 51287");--Sanctified Ahn'Kahar Blood Hunter's Legguards
- outSAY("character additem 51288");--Sanctified Ahn'Kahar Blood Hunter's Spaulders
- outSAY("character additem 51289");--Sanctified Ahn'Kahar Blood Hunter's Tunic
+ outSAY("additem 51285");--Sanctified Ahn'Kahar Blood Hunter's Handguards
+ outSAY("additem 51286");--Sanctified Ahn'Kahar Blood Hunter's Headpiece
+ outSAY("additem 51287");--Sanctified Ahn'Kahar Blood Hunter's Legguards
+ outSAY("additem 51288");--Sanctified Ahn'Kahar Blood Hunter's Spaulders
+ outSAY("additem 51289");--Sanctified Ahn'Kahar Blood Hunter's Tunic
 end
 
 function RogueHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51250");--Sanctified Shadowblade Breastplate
- outSAY("character additem 51251");--Sanctified Shadowblade Gauntlets
- outSAY("character additem 51252");--Sanctified Shadowblade Helmet
- outSAY("character additem 51253");--Sanctified Shadowblade Legplates
- outSAY("character additem 51254");--Sanctified Shadowblade Pauldrons
+ outSAY("additem 51250");--Sanctified Shadowblade Breastplate
+ outSAY("additem 51251");--Sanctified Shadowblade Gauntlets
+ outSAY("additem 51252");--Sanctified Shadowblade Helmet
+ outSAY("additem 51253");--Sanctified Shadowblade Legplates
+ outSAY("additem 51254");--Sanctified Shadowblade Pauldrons
 end
 
 function WarlockHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51230");--Sanctified Dark Coven Gloves
- outSAY("character additem 51231");--Sanctified Dark Coven Hood
- outSAY("character additem 51232");--Sanctified Dark Coven Leggings
- outSAY("character additem 51233");--Sanctified Dark Coven Robe
- outSAY("character additem 51234");--Sanctified Dark Coven Shoulderpads
+ outSAY("additem 51230");--Sanctified Dark Coven Gloves
+ outSAY("additem 51231");--Sanctified Dark Coven Hood
+ outSAY("additem 51232");--Sanctified Dark Coven Leggings
+ outSAY("additem 51233");--Sanctified Dark Coven Robe
+ outSAY("additem 51234");--Sanctified Dark Coven Shoulderpads
 end
 
 function WarriorHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51225");--Sanctified Ymirjar Lord's Battleplate
- outSAY("character additem 51226");--Sanctified Ymirjar Lord's Gauntlets
- outSAY("character additem 51227");--Sanctified Ymirjar Lord's Helmet
- outSAY("character additem 51228");--Sanctified Ymirjar Lord's Legplates
- outSAY("character additem 51229");--Sanctified Ymirjar Lord's Shoulderplates
+ outSAY("additem 51225");--Sanctified Ymirjar Lord's Battleplate
+ outSAY("additem 51226");--Sanctified Ymirjar Lord's Gauntlets
+ outSAY("additem 51227");--Sanctified Ymirjar Lord's Helmet
+ outSAY("additem 51228");--Sanctified Ymirjar Lord's Legplates
+ outSAY("additem 51229");--Sanctified Ymirjar Lord's Shoulderplates
 end
 
 function ShamanHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51240");--Sanctified Frost Witch's Shoulderguards
- outSAY("character additem 51241");--Sanctified Frost Witch's War-Kilt
- outSAY("character additem 51242");--Sanctified Frost Witch's Faceguard
- outSAY("character additem 51243");--Sanctified Frost Witch's Grips
- outSAY("character additem 51244");--Sanctified Frost Witch's Chestguard
+ outSAY("additem 51240");--Sanctified Frost Witch's Shoulderguards
+ outSAY("additem 51241");--Sanctified Frost Witch's War-Kilt
+ outSAY("additem 51242");--Sanctified Frost Witch's Faceguard
+ outSAY("additem 51243");--Sanctified Frost Witch's Grips
+ outSAY("additem 51244");--Sanctified Frost Witch's Chestguard
 end
 
 function PriestHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51260");--Sanctified Crimson Acolyte Gloves
- outSAY("character additem 51261");--Sanctified Crimson Acolyte Hood
- outSAY("character additem 51262");--Sanctified Crimson Acolyte Leggings
- outSAY("character additem 51263");--Sanctified Crimson Acolyte Robe
- outSAY("character additem 51264");--Sanctified Crimson Acolyte Shoulderpads
+ outSAY("additem 51260");--Sanctified Crimson Acolyte Gloves
+ outSAY("additem 51261");--Sanctified Crimson Acolyte Hood
+ outSAY("additem 51262");--Sanctified Crimson Acolyte Leggings
+ outSAY("additem 51263");--Sanctified Crimson Acolyte Robe
+ outSAY("additem 51264");--Sanctified Crimson Acolyte Shoulderpads
 end
 
 function DruidHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51295");--Sanctified Lasherweave Handgrips
- outSAY("character additem 51296");--Sanctified Lasherweave Headguard
- outSAY("character additem 51297");--Sanctified Lasherweave Legguards
- outSAY("character additem 51298");--Sanctified Lasherweave Raiment
- outSAY("character additem 51299");--Sanctified Lasherweave Shoulderpads
+ outSAY("additem 51295");--Sanctified Lasherweave Handgrips
+ outSAY("additem 51296");--Sanctified Lasherweave Headguard
+ outSAY("additem 51297");--Sanctified Lasherweave Legguards
+ outSAY("additem 51298");--Sanctified Lasherweave Raiment
+ outSAY("additem 51299");--Sanctified Lasherweave Shoulderpads
 end
 
 function PaladinHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51275");--Sanctified Lightsworn Battleplate
- outSAY("character additem 51276");--Sanctified Lightsworn Gauntlets
- outSAY("character additem 51277");--Sanctified Lightsworn Helmet
- outSAY("character additem 51278");--Sanctified Lightsworn Legplates
- outSAY("character additem 51279");--Sanctified Lightsworn Shoulderplates
+ outSAY("additem 51275");--Sanctified Lightsworn Battleplate
+ outSAY("additem 51276");--Sanctified Lightsworn Gauntlets
+ outSAY("additem 51277");--Sanctified Lightsworn Helmet
+ outSAY("additem 51278");--Sanctified Lightsworn Legplates
+ outSAY("additem 51279");--Sanctified Lightsworn Shoulderplates
 end
 
 function DeathKnightHT10()
  outSAY("modify level 80");--Levels Up To 80
- outSAY("character additem 51310");--Sanctified Scourgelord Battleplate
- outSAY("character additem 51311");--Sanctified Scourgelord Gauntlets
- outSAY("character additem 51312");--Sanctified Scourgelord Helmet
- outSAY("character additem 51313");--Sanctified Scourgelord Legplates
- outSAY("character additem 51314");--Sanctified Scourgelord Shoulderplates
+ outSAY("additem 51310");--Sanctified Scourgelord Battleplate
+ outSAY("additem 51311");--Sanctified Scourgelord Gauntlets
+ outSAY("additem 51312");--Sanctified Scourgelord Helmet
+ outSAY("additem 51313");--Sanctified Scourgelord Legplates
+ outSAY("additem 51314");--Sanctified Scourgelord Shoulderplates
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- SkillScript
@@ -754,7 +754,7 @@ function ArcGM_NPCSpawn(msg)
 end
 
 function ArcGM_AddItem(msg)
- outSAY("character additem "..msg);
+ outSAY("additem "..msg);
 end
 
 function ArcGM_Announce(msg)
@@ -963,7 +963,7 @@ function ResultButton_OnEnter(button_number, self)
 end
 
 function ResultButton_OnClick(button_number)
-outSAY("character additem "..item_search_results[button_number]);
+outSAY("additem "..item_search_results[button_number]);
 end
 ---------------------------------------------
 -- End of Item search  --

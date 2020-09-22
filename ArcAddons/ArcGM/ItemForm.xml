@@ -415,7 +415,7 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>if ItemNumber:GetNumLetters() &lt; 1 then ShowMessage( "Please enter an item number!", "FF0000", 1); else outSAY("character additem "..ItemNumber:GetText().." "..ItemQuantity1:GetText()); ItemNumber:ClearFocus(); ItemQuantity1:ClearFocus(); end</OnClick>
+          <OnClick>if ItemNumber:GetNumLetters() &lt; 1 then ShowMessage( "Please enter an item number!", "FF0000", 1); else outSAY("additem "..ItemNumber:GetText().." "..ItemQuantity1:GetText()); ItemNumber:ClearFocus(); ItemQuantity1:ClearFocus(); end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0"
@@ -645,7 +645,7 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>if ItemSetNumber:GetNumLetters() &lt; 1 then ShowMessage( "Please enter an item set number!","FF0000", 1 ); else outSAY("character additemset "..ItemSetNumber:GetText()); end</OnClick>
+          <OnClick>if ItemSetNumber:GetNumLetters() &lt; 1 then ShowMessage( "Please enter an item set number!","FF0000", 1 ); else outSAY("additemset "..ItemSetNumber:GetText()); end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0"
