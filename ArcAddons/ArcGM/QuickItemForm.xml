@@ -1489,7 +1489,7 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>outSAY("modify gold 99999999");</OnClick>
+          <OnClick>outSAY("modify money 99999999");</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0"

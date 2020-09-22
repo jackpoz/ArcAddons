@@ -107,7 +107,7 @@ function AddMoney()
  if IntSilver == nil then IntSilver = 0; end
  if IntGold == nil then IntGold = 0; end
  if IntGold and IntSilver and IntCopper == 0 then ShowMessage("Please set a gold value to modify."); end
- outSAY("modify gold " ..(IntGold + IntSilver + IntCopper));
+ outSAY("modify money " ..(IntGold + IntSilver + IntCopper));
 end
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

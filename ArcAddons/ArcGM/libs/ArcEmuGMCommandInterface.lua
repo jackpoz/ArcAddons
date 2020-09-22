@@ -38,7 +38,7 @@ local AscentCommandTable = {
 ["kick"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "kickplayer", }},
 ["kill"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "kill", }},
 ["kille"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "killplr", }},
-["money"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "modify gold", }},
+["money"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "modify money", }},
 ["nuke"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "ban character", }}, -- Maybe we should use ban all instead?
 ["paralyze"] = {execType = "CHAT_MSG", execData = {cmdPrefix = chatCmdPrefix, cmdStr = "paralyze", }},
 ["port"] = {execType = "CCONSOLE_CMD", execData = {  cmdStr = "port", }},
